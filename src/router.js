@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Top from "./views/Top";
 import Result from "./views/Result";
+import Test from "./views/Test";
 import GMap from "./views/Map";
 
 Vue.use(VueRouter);
@@ -20,6 +21,11 @@ const routes = [
         path: "/Gmap",
         name: "Gmap",
         component: GMap
+    },
+    {
+        path: "/test",
+        name: "test",
+        component: Test
     }
 ];
 
